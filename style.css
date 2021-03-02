@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	max-width: 50 em;
+	font-family: "Helvetica";
+	background-color: #F2FBFD;
+}
+
+header {
+	color: #0A0275;
+	padding: 0px 20px 0px 20px;
+}
+
+article {
+	padding: 0px 20px 0px 20px;
+}
+
+h2 {
+	margin-top: 1em;
+  	color: #3043FF;
+}
+
+strong {
+	color: #3802FF;
+}
+
+.moods {
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.figure {
+	max-width: 300px;
+	max-height: 300px;
+  	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	max-width: 100%;
+}
+
+li {
+	margin: 0 0 3px 0;
+}
+/*unvisited link*/
+a:link {
+  color: #e81c4f;
+}
+
+/* visited link */
+a:visited {
+  color: #2D9537;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF0EFC;
+}
+
+/* selected link */
+a:active {
+  color: #FF0EFC;
+}
+
